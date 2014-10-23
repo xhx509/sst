@@ -59,7 +59,7 @@ bathy=True
 plt.title(str(datetime_wanted.strftime("%d-%b-%Y %H"))+'h')
     #plt.savefig('/net/home3/ocn/jmanning/py/huanxin/work/hx/'+str(datetime_wanted)+ '.png')
 #plt.savefig(str('%03d' % png_num) + '.png')
-plt.savefig(str(datetime_wanted.strftime("%d-%b-%Y %H"))+'.png')
+plt.savefig(dt.datetime.now().strftime('%Y-%m-%d %H:%M')+'.png')
 #datetime_wanted=date2num(num2date(datetime_wanted)+interval_dtime) # add interval_dtime for another forloop
 plt.show()
     #plt.close()

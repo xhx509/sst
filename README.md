@@ -7,4 +7,6 @@ This program gets observed  and  model sea surface data. After running this prog
 the end.
 Remember to modify the hard code before you running a process.
 
+Some functions are saved in 'hx.py'
+
 Reference:  http://tds.maracoos.org/thredds/SST.html .

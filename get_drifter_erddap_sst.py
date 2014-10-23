@@ -66,7 +66,7 @@ bathy=True
 region='wv' # set basemap 
 basemap_region(region)
 plt.legend( numpoints=1,loc=2)  
-plt.savefig('./'+str(time[0].strftime("%d-%b-%Y %H"))+'h' + '.png')
+plt.savefig('./'+dt.datetime.now().strftime('%Y-%m-%d %H:%M')+ '.png')
  
 #datetime_wanted=date2num(num2date(datetime_wanted)+datetime.timedelta( 0,step_size*60*60 ))
 plt.show()
