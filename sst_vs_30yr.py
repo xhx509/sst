@@ -15,7 +15,7 @@ sys.path.append('/home/hxu/epd73/basemap-1.0.7/lib/mpl_toolkits')
 from pylab import *
 import matplotlib.tri as Tri
 from mpl_toolkits.basemap import Basemap
-from hx import plot_getsst
+from sst_function import plot_getsst
 import pytz
 import datetime as dt
 import netCDF4

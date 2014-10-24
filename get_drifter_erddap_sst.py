@@ -16,7 +16,7 @@ import os
 import pytz, pylab
 import numpy as np
 import matplotlib.pyplot as plt
-from hx import getobs_drift_byrange,getobs_drift_byidrange,colors,getobs_drift_byid,plot_getsst
+from sst_function import getobs_drift_byrange,getobs_drift_byidrange,colors,getobs_drift_byid,plot_getsst
 ops=os.defpath
 pydir='../'
 sys.path.append(pydir)

@@ -14,17 +14,11 @@ import sys
 sys.path.append('/home/hxu/epd73/basemap-1.0.7/lib/mpl_toolkits')
 sys.path.append(pydir)
 from pylab import *
-from matplotlib.collections import PolyCollection
-import matplotlib.tri as Tri
 from mpl_toolkits.basemap import Basemap
-from hx import plot_getsst
-import matplotlib.mlab as ml
 import pytz
 import datetime as dt
 import netCDF4
-from pydap.client import open_url
 import numpy as np
-from datetime import timedelta
 from matplotlib.dates import num2date,date2num
 def get_roms_id(url,datetime_wanted): #accroding time you input,get a index of that
     

@@ -15,12 +15,11 @@ Created on Mon Apr  7 10:33:04 2014
 #function uses:getcodar_ctl_file_edge,getcodar_ctl_lalo,getcodar_ctl_id,getcodar_edge, plot_getsst
 ####################################################################
 from pylab import *
-import pylab
 import sys
 import datetime as dt
 import matplotlib.pyplot as plt
 sys.path.append("/usr/local/lib/python2.7/dist-packages/Pydap-3.0.1-py2.7.egg")
-from hx import  plot_getsst
+from sst_function import  plot_getsst
 import pytz
 sys.path.append('/net/home3/ocn/jmanning/py/mygit/modules/')
 from basemap import basemap_standard
