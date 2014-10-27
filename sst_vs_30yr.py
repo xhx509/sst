@@ -5,7 +5,7 @@ Created on Thu May 23 09:10:22 2014
 @author: Huanxin
 """
 """
-It compares model of 30yr and real observed sea surface temperature data. Before you running this program, please 
+It compares model of FVCOM and real observed sea surface temperature data. Before you running this program, please 
 open and modify control file "ctrl_temsalmod.csv" in same directory. After running, a drawing will be plotted.
 If you find problem in drawing of color bar , please modify color bar parameter setting.
 
