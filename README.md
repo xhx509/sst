@@ -9,7 +9,7 @@ Remember to modify the hard code before you running a process.
 
 Some functions are saved in 'sst_function.py'
 
-There are flowcharts in this peckage to explan programs 
+There are flowcharts in this peckage to explain programs 
 
 Reference:  http://tds.maracoos.org/thredds/SST.html .
 
