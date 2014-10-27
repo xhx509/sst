@@ -24,7 +24,7 @@ getsst_drifter_raw.py plot   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     sst and raw drif
 
 getsst.py             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            plot sst data
 
-roms_model.py          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           original roms' plotting
+roms_model.py          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           original roms' plotting, could plot layers' data
 
 roms_sur.py              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         plot surface data of roms
 
