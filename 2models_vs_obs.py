@@ -7,7 +7,7 @@ Created on Mon Sep 22 15:04:31 2014
 
 
 """
-It compares models of 30yr and roms and real observed sea surface temperature data. Before you running this program, please 
+It compares models of FVCOM and roms and real observed sea surface temperature data. Before you running this program, please 
 open and modify control file "ctrl_temsalmod.csv" in same directory. After running, a drawing will be plotted.
 If you find problem in drawing of color bar , please modify color bar parameter setting.
 
