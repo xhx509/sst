@@ -9,7 +9,6 @@ Remember to modify the hard code before you running a process.
 
 Some functions are saved in 'sst_function.py'
 
-There are flowcharts in this peckage to explain programs 
 
 Reference:  http://tds.maracoos.org/thredds/SST.html .
 
@@ -20,7 +19,7 @@ List of programs:
 
 get_drifter_erddap_sst.py    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     plot sst and erddap drifter data in one picture
 
-getsst_drifter_raw.py plot   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     sst and raw drifter data in one picture
+getsst_drifter_raw.py plot   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     plot sst and raw drifter data in one picture
 
 getsst.py             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            plot sst data
 
@@ -30,3 +29,11 @@ roms_sur.py              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         plot surface dat
 
 sst_vs_30yr.py              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      plot both sst data and model FVCOM data 
 
+
+There are flowcharts in this peckage to explain programs :
+
+<a href="https://github.com/xhx509/sst/blob/master/getsst_flowchart.png">getsst</a>
+
+<a href="https://github.com/xhx509/sst/blob/master/get_drifter_erddap_sst_flowchart.png">get_drifter_erddap_sst</a>
+
+<a href="https://github.com/xhx509/sst/blob/master/sst_30yr_flowchart.png">sst_vs_30yr</a>
